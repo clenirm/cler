@@ -1,0 +1,92 @@
+﻿-- • Cadastrar PF
+1. Cadastrar Pessoa Física
+	Informar CPF válido
+	Informar Nome completo
+	Informar telefone/celular com DDD (válidos)
+	Informar Endereço
+			 Após informar o CEP, sistema carrega automaticamente dados da rua, avenida, etc, bairro, cidade e estado)
+			 Informar o Nº
+			 Informar o Complemento (caso tenha)
+
+
+-- • Cadastrar nova PF
+2. Cadastrar nova Pessoa Física
+	Informar CPF válido que não exista no sistema
+	Informar Nome completo
+	Informar telefone/celular com DDD (válidos e que ainda não tenha sido cadastrado)
+	Informar Endereço
+			 Após informar o CEP, sistema carrega automaticamente dados da rua, avenida, etc, bairro, cidade e estado)
+			 Informar o Nº
+			 Informar o Complemento (caso tenha)
+	
+
+-- • Não permitir cadastrar mesmo CPF
+3. Cadastrar Pessoa Física já existente
+	Informar CPF já existente e acionar a tecla TAB
+	Sistema apresenta a mensagem "CPF já está cadastrado no sistema."
+
+
+-- • Não permitir cadastrar CPF inválido
+4. Cadastrar Pessoa Física com CPF inválido
+	Informar CPF inválido e acionar a tecla TAB
+	Sistema apresenta a mensagem "CPF inválido."
+
+
+-- • Não permitir cadastrar telefone/celular inválido
+5. Cadastrar Pessoa Física com número de telefone inválido
+	Informar CPF válido que não exista no sistema
+	Informar Nome completo
+	Informar telefone/celular com DDD inválido e acionar a tecla TAB
+	Sistema apresenta a mensagem "Telefone/Celular inválido."
+
+
+-- • Não permitir cadastrar mesmo telefone/celular
+6. Cadastrar Pessoa Física com número de telefone já existente
+	Informar CPF válido que não exista no sistema
+	Informar Nome completo
+	Informar telefone/celular com DDD (válidos que já tenha sido cadastrado) e acionar a tecla TAB
+	Sistema apresenta a mensagem "Telefone/Celular já está cadastrado no sistema."
+
+
+-- • Efetuar busca por CPF
+7. Busca por CPF
+	Informar CPF que já exista no sistema e acionar a tecla TAB
+	Sistema carrega todos os campos com os dados cadastrados
+
+
+-- • Efetuar busca por parte CPF
+8. Busca por parte do CPF
+	Informar parte do CPF que já exista no sistema e acionar a tecla TAB
+	Sistema carrega todos os campos com os dados cadastrados
+
+
+-- • Efetuar busca por DDD e telefone/celular
+9. Busca por DDD Telefone/Celular
+	Informar DDD, número do telefone/celular que já exista no sistema e acionar a tecla TAB
+	Sistema carrega todos os campos com os dados cadastrados
+
+
+-- • Efetuar busca por Nome
+10. Busca por Nome
+	Informar Nome ou parte do Nome que já exista no sistema
+	Sistema carrega nomes completos no campo Nome
+	Escolher o nome que deseja efetuar a busca e clicar no botão Buscar
+	Sistema carrega todos os campos com os dados cadastrados
+
+
+-- • Efetuar busca por CPF que não existe
+11. Busca por CPF inexistente
+	Informar CPF válido que não tenha sido cadastrado e acionar a tecla TAB
+	Sistema apresenta a mensagem "CPF inexistente."
+
+
+-- • Efetuar busca por Nome que não exite
+12. Busca por Nome inexistente
+	Informar Nome ou parte do Nome que não tenha sido cadastrado
+	Sistema não retorna nada no campo Nome
+	
+
+-- • Busca por DDD Telefone/Celular que não existe
+13. Busca DDD Telefone/Celular inexistente
+	Informar DDD, número do telefone/celular inexistente e clicar no botão Buscar
+	Sistema apresenta a mensagem "Número do telefone/celular inexistente."
